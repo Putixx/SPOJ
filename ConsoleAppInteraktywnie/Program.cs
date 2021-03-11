@@ -36,7 +36,7 @@ namespace ConsoleAppInteraktywnie
             {
                 Console.WriteLine("Jesteś emerytem!");
             }
-
+            //sss
         }
     }
 }
