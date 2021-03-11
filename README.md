@@ -1,2 +1,2 @@
-# emerytura-lab3
+# Programowanie-lab3
 # Piotr Kędzior
