@@ -28,15 +28,21 @@ namespace ConsoleAppInteraktywnie
             string wiekJakoNapis = Console.ReadLine();
             int wiek = int.Parse(wiekJakoNapis);
 
-            if(wiek < 65)
+            if(wiek < 65 && wiek > 0)
             {
                 Console.WriteLine($"Do emerytury zostało Ci {65-wiek} lat!");
             }
             else
             {
-                Console.WriteLine("Jesteś emerytem!");
+                if (wiek < 0)
+                {
+                    Console.WriteLine("Błędnie wprowadzona wartość, wiek nie może być ujemny!");
+                }
+                else
+                {
+                    Console.WriteLine("Jesteś emerytem!");
+                }
             }
-            //sss
         }
     }
 }
