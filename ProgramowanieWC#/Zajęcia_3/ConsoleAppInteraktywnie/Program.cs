@@ -317,6 +317,12 @@ namespace ConsoleAppInteraktywnie
             WzorekA(9, 6);
             Console.WriteLine("------------");
             WzorekA(3, 3);
+            Console.WriteLine("------------");
+            TrojkatP2(7);
+            Console.WriteLine("------------");
+            TrojkatP2(8);
+            Console.WriteLine("------------");
+            TrojkatP2(3);
 
 
             //string wejscie = Console.ReadLine();

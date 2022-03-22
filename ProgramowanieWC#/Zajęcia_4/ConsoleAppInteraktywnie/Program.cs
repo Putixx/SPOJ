@@ -190,6 +190,13 @@ namespace ConsoleAppInteraktywnie
             string napis = Console.ReadLine();
             char[,] tekst = new char[3, napis.Length * 3];
 
+            tekst = cyfra0();
+
+            for(int i = 0; i < tekst.Length; i++)
+            {
+                Console.WriteLine(tekst[i,i]);
+            }
+
         }
     }
 }
