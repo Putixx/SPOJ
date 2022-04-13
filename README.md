@@ -1,1 +1,1 @@
-# Piotr Kędzior
+# SPOJ
